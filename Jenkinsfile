@@ -4,7 +4,7 @@ pipeline{
         MYSQL_DATABASE_HOST = "database-1.c2mccj7rt6od.us-east-1.rds.amazonaws.com"
         MYSQL_DATABASE_PASSWORD = "jenkinsadmin"
         MYSQL_DATABASE_USER = "admin"
-        MYSQL_DATABASE_DB = "phonebook"
+        MYSQL_DATABASE_DB = "database-1"
         MYSQL_DATABASE_PORT = 3306
         PATH="/usr/local/bin/:${env.PATH}"
     }
